@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		358785632943B45C00F1F72C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358785622943B45C00F1F72C /* HomeView.swift */; };
 		35C286082943B30600A152D1 /* FlightAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C286072943B30600A152D1 /* FlightAppApp.swift */; };
 		35C2860A2943B30600A152D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C286092943B30600A152D1 /* ContentView.swift */; };
 		35C2860C2943B30800A152D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C2860B2943B30800A152D1 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		358785622943B45C00F1F72C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		35C286042943B30600A152D1 /* FlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C286072943B30600A152D1 /* FlightAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppApp.swift; sourceTree = "<group>"; };
 		35C286092943B30600A152D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		358785602943B43F00F1F72C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				358785622943B45C00F1F72C /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		35C285FB2943B30600A152D1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		35C286062943B30600A152D1 /* FlightApp */ = {
 			isa = PBXGroup;
 			children = (
+				358785602943B43F00F1F72C /* Views */,
 				35C286072943B30600A152D1 /* FlightAppApp.swift */,
 				35C286092943B30600A152D1 /* ContentView.swift */,
 				35C2860B2943B30800A152D1 /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358785632943B45C00F1F72C /* HomeView.swift in Sources */,
 				35C2860A2943B30600A152D1 /* ContentView.swift in Sources */,
 				35C286082943B30600A152D1 /* FlightAppApp.swift in Sources */,
 			);
