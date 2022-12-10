@@ -17,7 +17,7 @@ struct HomeView: View {
     }
     
     @ViewBuilder
-    func HeaderView()-> some View {
+    func HeaderView()->some View {
         VStack{
             Image("Logo")
                 .resizable()
@@ -27,7 +27,14 @@ struct HomeView: View {
         }
         .padding(15)
         .padding(.top, safeArea.top)
-        .background
+        .background {
+            Rectangle()
+                .fill(.linearGradient(colors: [
+                Color("BlueTop"),
+                Color("BlueTop"),
+                Color("BlueBotto")
+                ], startPoint: .top, endPoint: .bottom))
+        }
     }
     
     struct Home_Previews: PreviewProvider {
