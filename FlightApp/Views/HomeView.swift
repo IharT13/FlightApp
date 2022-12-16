@@ -27,6 +27,17 @@ struct HomeView: View {
             
             HStack {
                 FlightDetailsView(place: "Los Angeles", code: "LAS", timing: "23 Nov, 03:30")
+                
+                VStack(spacing: 8) {
+                    Image(systemName: "chevron.right")
+                        .font(.title2)
+                    
+                    Text("4h 15m")
+                }
+//                .fontWeight(.semibold)
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity)
+                
                 FlightDetailsView(place: "New York", code: "NYC", timing: "23 Nov, 07:30")
             }
         }
