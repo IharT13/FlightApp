@@ -40,6 +40,12 @@ struct HomeView: View {
                 
                 FlightDetailsView(place: "New York", code: "NYC", timing: "23 Nov, 07:30")
             }
+            .padding(.top, 20)
+            Image("Airplane")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 160)
+                .padding(.bottom, -20)
         }
         .padding(15)
         .padding(.top, safeArea.top)
