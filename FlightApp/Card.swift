@@ -3,8 +3,7 @@ import SwiftUI
 // MARK: Card Model And Sample Cards
 struct Card: Identifiable{
     var id: UUID = .init()
-    var cardImage: String
-    /// Other Properties
+    var cardImage: String 
 }
 
 var sampleCards: [Card] = [
